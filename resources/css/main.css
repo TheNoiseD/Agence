@@ -1,0 +1,37 @@
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.styled-table th, .styled-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.styled-table th {
+    background-color: #fafafa;
+    text-align: center;
+}
+
+.styled-table td {
+    text-align: right;
+}
+
+.styled-table .saldo-row {
+    background-color: #efefef;
+    font-weight: bold;
+}
+
+.styled-table .saldo-row td {
+    text-align: center;
+}
+
+.styled-table .negative {
+    color: #FF0000;
+}
+
+.styled-table .positive {
+    color: #0000FF;
+}
