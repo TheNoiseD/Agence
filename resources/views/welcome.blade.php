@@ -41,7 +41,7 @@
 
                                                 </select>
                                             </div>
-                                            <div class="col-2 d-flex flex-col justify-content-evenly">
+                                            <div class="col-2 flex-buttons">
                                                 <button type="button" id="move-to" class="btn btn-primary">></button>
                                                 <button type="button" id="remove-to" class="btn btn-primary"><</button>
                                             </div>
@@ -53,7 +53,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-2">
-                                        <div class="d-flex flex-col justify-content-evenly">
+                                        <div class="flex-buttons">
                                             <button type="button" id="relatorio" class="btn btn-primary my-1">Relatorio</button>
                                             <button type="button" id="grafico" class="btn btn-primary my-1">Grafico</button>
                                             <button type="button" id="pizza" class="btn btn-primary my-1">Pizza</button>
