@@ -4,12 +4,12 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 grafico.addEventListener('click', (e) => {
-    const divpie = document.getElementById('chartBar');
-    divpie.classList.toggle('d-none');
+    const divbar = document.getElementById('chartBar');
+    divbar.classList.toggle('d-none');
 })
 
 pizza.addEventListener('click', (e) => {
-    const divbar = document.getElementById('chartPie');
+    const divpie = document.getElementById('chartPie');
     divpie.classList.toggle('d-none');
 })
 
